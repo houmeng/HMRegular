@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF320F131CA25EB400C8DC34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF320F121CA25EB400C8DC34 /* main.m */; };
+		BF320F161CA25EB400C8DC34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF320F151CA25EB400C8DC34 /* AppDelegate.m */; };
+		BF320F191CA25EB400C8DC34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF320F181CA25EB400C8DC34 /* ViewController.m */; };
+		BF320F1C1CA25EB400C8DC34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF320F1A1CA25EB400C8DC34 /* Main.storyboard */; };
+		BF320F1E1CA25EB400C8DC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF320F1D1CA25EB400C8DC34 /* Assets.xcassets */; };
+		BF320F211CA25EB400C8DC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF320F1F1CA25EB400C8DC34 /* LaunchScreen.storyboard */; };
+		BF320F2C1CA25EB400C8DC34 /* HMRegularTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF320F2B1CA25EB400C8DC34 /* HMRegularTests.m */; };
+		BF320F371CA25EB400C8DC34 /* HMRegularUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF320F361CA25EB400C8DC34 /* HMRegularUITests.m */; };
+		BF320F4D1CA26ECD00C8DC34 /* HMRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = BF320F4C1CA26ECD00C8DC34 /* HMRegular.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF320F281CA25EB400C8DC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF320F061CA25EB400C8DC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF320F0D1CA25EB400C8DC34;
+			remoteInfo = HMRegular;
+		};
+		BF320F331CA25EB400C8DC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF320F061CA25EB400C8DC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF320F0D1CA25EB400C8DC34;
+			remoteInfo = HMRegular;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF320F0E1CA25EB400C8DC34 /* HMRegular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMRegular.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF320F121CA25EB400C8DC34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF320F141CA25EB400C8DC34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF320F151CA25EB400C8DC34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF320F171CA25EB400C8DC34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF320F181CA25EB400C8DC34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF320F1B1CA25EB400C8DC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF320F1D1CA25EB400C8DC34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF320F201CA25EB400C8DC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF320F221CA25EB400C8DC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF320F271CA25EB400C8DC34 /* HMRegularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMRegularTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF320F2B1CA25EB400C8DC34 /* HMRegularTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRegularTests.m; sourceTree = "<group>"; };
+		BF320F2D1CA25EB400C8DC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF320F321CA25EB400C8DC34 /* HMRegularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMRegularUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF320F361CA25EB400C8DC34 /* HMRegularUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRegularUITests.m; sourceTree = "<group>"; };
+		BF320F381CA25EB400C8DC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF320F4B1CA26ECD00C8DC34 /* HMRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRegular.h; sourceTree = "<group>"; };
+		BF320F4C1CA26ECD00C8DC34 /* HMRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMRegular.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF320F0B1CA25EB400C8DC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF320F241CA25EB400C8DC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF320F2F1CA25EB400C8DC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF320F051CA25EB400C8DC34 = {
+			isa = PBXGroup;
+			children = (
+				BF320F101CA25EB400C8DC34 /* HMRegular */,
+				BF320F2A1CA25EB400C8DC34 /* HMRegularTests */,
+				BF320F351CA25EB400C8DC34 /* HMRegularUITests */,
+				BF320F0F1CA25EB400C8DC34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF320F0F1CA25EB400C8DC34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF320F0E1CA25EB400C8DC34 /* HMRegular.app */,
+				BF320F271CA25EB400C8DC34 /* HMRegularTests.xctest */,
+				BF320F321CA25EB400C8DC34 /* HMRegularUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF320F101CA25EB400C8DC34 /* HMRegular */ = {
+			isa = PBXGroup;
+			children = (
+				BF320F141CA25EB400C8DC34 /* AppDelegate.h */,
+				BF320F151CA25EB400C8DC34 /* AppDelegate.m */,
+				BF320F171CA25EB400C8DC34 /* ViewController.h */,
+				BF320F181CA25EB400C8DC34 /* ViewController.m */,
+				BF320F471CA26E6B00C8DC34 /* HMRegular */,
+				BF320F1A1CA25EB400C8DC34 /* Main.storyboard */,
+				BF320F1D1CA25EB400C8DC34 /* Assets.xcassets */,
+				BF320F1F1CA25EB400C8DC34 /* LaunchScreen.storyboard */,
+				BF320F221CA25EB400C8DC34 /* Info.plist */,
+				BF320F111CA25EB400C8DC34 /* Supporting Files */,
+			);
+			path = HMRegular;
+			sourceTree = "<group>";
+		};
+		BF320F111CA25EB400C8DC34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF320F121CA25EB400C8DC34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF320F2A1CA25EB400C8DC34 /* HMRegularTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF320F2B1CA25EB400C8DC34 /* HMRegularTests.m */,
+				BF320F2D1CA25EB400C8DC34 /* Info.plist */,
+			);
+			path = HMRegularTests;
+			sourceTree = "<group>";
+		};
+		BF320F351CA25EB400C8DC34 /* HMRegularUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF320F361CA25EB400C8DC34 /* HMRegularUITests.m */,
+				BF320F381CA25EB400C8DC34 /* Info.plist */,
+			);
+			path = HMRegularUITests;
+			sourceTree = "<group>";
+		};
+		BF320F471CA26E6B00C8DC34 /* HMRegular */ = {
+			isa = PBXGroup;
+			children = (
+				BF320F4B1CA26ECD00C8DC34 /* HMRegular.h */,
+				BF320F4C1CA26ECD00C8DC34 /* HMRegular.m */,
+			);
+			path = HMRegular;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF320F0D1CA25EB400C8DC34 /* HMRegular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF320F3B1CA25EB400C8DC34 /* Build configuration list for PBXNativeTarget "HMRegular" */;
+			buildPhases = (
+				BF320F0A1CA25EB400C8DC34 /* Sources */,
+				BF320F0B1CA25EB400C8DC34 /* Frameworks */,
+				BF320F0C1CA25EB400C8DC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMRegular;
+			productName = HMRegular;
+			productReference = BF320F0E1CA25EB400C8DC34 /* HMRegular.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF320F261CA25EB400C8DC34 /* HMRegularTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF320F3E1CA25EB400C8DC34 /* Build configuration list for PBXNativeTarget "HMRegularTests" */;
+			buildPhases = (
+				BF320F231CA25EB400C8DC34 /* Sources */,
+				BF320F241CA25EB400C8DC34 /* Frameworks */,
+				BF320F251CA25EB400C8DC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF320F291CA25EB400C8DC34 /* PBXTargetDependency */,
+			);
+			name = HMRegularTests;
+			productName = HMRegularTests;
+			productReference = BF320F271CA25EB400C8DC34 /* HMRegularTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF320F311CA25EB400C8DC34 /* HMRegularUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF320F411CA25EB400C8DC34 /* Build configuration list for PBXNativeTarget "HMRegularUITests" */;
+			buildPhases = (
+				BF320F2E1CA25EB400C8DC34 /* Sources */,
+				BF320F2F1CA25EB400C8DC34 /* Frameworks */,
+				BF320F301CA25EB400C8DC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF320F341CA25EB400C8DC34 /* PBXTargetDependency */,
+			);
+			name = HMRegularUITests;
+			productName = HMRegularUITests;
+			productReference = BF320F321CA25EB400C8DC34 /* HMRegularUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF320F061CA25EB400C8DC34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "侯猛";
+				TargetAttributes = {
+					BF320F0D1CA25EB400C8DC34 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BF320F261CA25EB400C8DC34 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BF320F0D1CA25EB400C8DC34;
+					};
+					BF320F311CA25EB400C8DC34 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BF320F0D1CA25EB400C8DC34;
+					};
+				};
+			};
+			buildConfigurationList = BF320F091CA25EB400C8DC34 /* Build configuration list for PBXProject "HMRegular" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF320F051CA25EB400C8DC34;
+			productRefGroup = BF320F0F1CA25EB400C8DC34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF320F0D1CA25EB400C8DC34 /* HMRegular */,
+				BF320F261CA25EB400C8DC34 /* HMRegularTests */,
+				BF320F311CA25EB400C8DC34 /* HMRegularUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF320F0C1CA25EB400C8DC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF320F211CA25EB400C8DC34 /* LaunchScreen.storyboard in Resources */,
+				BF320F1E1CA25EB400C8DC34 /* Assets.xcassets in Resources */,
+				BF320F1C1CA25EB400C8DC34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF320F251CA25EB400C8DC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF320F301CA25EB400C8DC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF320F0A1CA25EB400C8DC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF320F191CA25EB400C8DC34 /* ViewController.m in Sources */,
+				BF320F4D1CA26ECD00C8DC34 /* HMRegular.m in Sources */,
+				BF320F161CA25EB400C8DC34 /* AppDelegate.m in Sources */,
+				BF320F131CA25EB400C8DC34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF320F231CA25EB400C8DC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF320F2C1CA25EB400C8DC34 /* HMRegularTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF320F2E1CA25EB400C8DC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF320F371CA25EB400C8DC34 /* HMRegularUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF320F291CA25EB400C8DC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF320F0D1CA25EB400C8DC34 /* HMRegular */;
+			targetProxy = BF320F281CA25EB400C8DC34 /* PBXContainerItemProxy */;
+		};
+		BF320F341CA25EB400C8DC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF320F0D1CA25EB400C8DC34 /* HMRegular */;
+			targetProxy = BF320F331CA25EB400C8DC34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF320F1A1CA25EB400C8DC34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF320F1B1CA25EB400C8DC34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF320F1F1CA25EB400C8DC34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF320F201CA25EB400C8DC34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF320F391CA25EB400C8DC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF320F3A1CA25EB400C8DC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF320F3C1CA25EB400C8DC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HMRegular/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOUMENG.HMRegular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF320F3D1CA25EB400C8DC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HMRegular/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOUMENG.HMRegular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF320F3F1CA25EB400C8DC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HMRegularTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOUMENG.HMRegularTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMRegular.app/HMRegular";
+			};
+			name = Debug;
+		};
+		BF320F401CA25EB400C8DC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HMRegularTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOUMENG.HMRegularTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMRegular.app/HMRegular";
+			};
+			name = Release;
+		};
+		BF320F421CA25EB400C8DC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HMRegularUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOUMENG.HMRegularUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HMRegular;
+			};
+			name = Debug;
+		};
+		BF320F431CA25EB400C8DC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HMRegularUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOUMENG.HMRegularUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HMRegular;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF320F091CA25EB400C8DC34 /* Build configuration list for PBXProject "HMRegular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF320F391CA25EB400C8DC34 /* Debug */,
+				BF320F3A1CA25EB400C8DC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF320F3B1CA25EB400C8DC34 /* Build configuration list for PBXNativeTarget "HMRegular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF320F3C1CA25EB400C8DC34 /* Debug */,
+				BF320F3D1CA25EB400C8DC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF320F3E1CA25EB400C8DC34 /* Build configuration list for PBXNativeTarget "HMRegularTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF320F3F1CA25EB400C8DC34 /* Debug */,
+				BF320F401CA25EB400C8DC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF320F411CA25EB400C8DC34 /* Build configuration list for PBXNativeTarget "HMRegularUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF320F421CA25EB400C8DC34 /* Debug */,
+				BF320F431CA25EB400C8DC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF320F061CA25EB400C8DC34 /* Project object */;
+}
