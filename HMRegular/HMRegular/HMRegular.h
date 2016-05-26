@@ -11,9 +11,16 @@
 @interface HMRegular : NSObject
 
 /**
- *  1.用户名 - 2.密码 （英文、数字都可，且不包含特殊字符
+ *  用户名 (6-16位，数字、英文都可以，不包含特殊字符)
  */
-+ (BOOL)validateStrWithStr:(NSString *)str;
++ (BOOL)validateStrWithUserName:(NSString *)userName;
+
+/**
+ *
+ *  密码 (英文、数字必须都包含，且不包含特殊字符)
+ *
+ */
++ (BOOL)validateStrWithPassWord:(NSString *)passWord;
 
 /**
  *  真实姓名验证

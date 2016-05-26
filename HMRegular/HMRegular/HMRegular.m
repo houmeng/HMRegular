@@ -11,12 +11,21 @@
 @implementation HMRegular
 
 #pragma mark -  1.用户名 - 2.密码 （英文、数字都可，且不包含特殊字符）
-+ (BOOL)validateStrWithStr:(NSString *)str
++ (BOOL)validateStrWithUserName:(NSString *)userName
 {
     // eg: range = {4,20}
-    NSString * regex = [NSString stringWithFormat:@"^[A-Za-z0-9]%@$",@"{4,20}"] ;
+    NSString * regex = [NSString stringWithFormat:@"^[A-Za-z0-9]%@$",@"{6,20}"] ;
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
-    BOOL isMatch = [pred evaluateWithObject:str];
+    BOOL isMatch = [pred evaluateWithObject:userName];
+    return isMatch;
+}
+
++ (BOOL)validateStrWithPassWord:(NSString *)passWord
+{
+    // eg: range = {4,20}
+    NSString * regex = [NSString stringWithFormat:@"^[A-Za-z0-9]%@$",@"{6,20}"] ;
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
+    BOOL isMatch = [pred evaluateWithObject:passWord];
     return isMatch;
 }
 
